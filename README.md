@@ -8,4 +8,4 @@ Features:
 - Display image thumbnails
 - Page Navigation
 - Save image to Favourites
-
+- Responsive UI
