@@ -1,0 +1,49 @@
+.Photo {
+  padding: 20px 0 60px;
+  .outer-box {
+    display: inline-block;
+  }
+
+  .photobox {
+    height: 100px;
+    margin-top: 10px;
+    box-shadow: 0 5px 14px 0 rgba(0, 0, 0, 0.09);
+    padding: 0;
+    background-color: #fff;
+    display: flex;
+    border-radius: 4px;
+
+    &:hover {
+      background-color: rgba(#14B874, 0.2);
+    }
+
+    .thumbnail {
+      min-width: 100px;
+      height: 100%;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 4px 0 0 4px;
+    }
+
+    .info {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      padding: 10px;
+    }
+
+    .addToFav {
+      font-size: 12px;
+      position: absolute;
+      right: 30px;
+      bottom: 10px;
+      text-decoration: underline;
+
+      &:hover {
+        cursor: pointer;
+        color: #e96044;
+      }
+    }
+  }
+}

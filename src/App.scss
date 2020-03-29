@@ -1,0 +1,26 @@
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+
+  .nonText {
+      text-align: center;
+      margin-top: 50px;
+      font-weight: 600;
+  }
+
+  .resultsFor {
+    padding: 10px;
+  }
+
+  .myFavs {
+    position: absolute;
+    text-decoration: underline;
+    cursor: pointer;
+    bottom: 15px;
+
+    &:hover {
+      color: #e96044;
+    }
+  }
+}

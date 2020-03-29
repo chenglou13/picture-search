@@ -1,0 +1,28 @@
+.Pagination {
+  display: flex;
+  justify-content: center;
+  background-color: #062C3B;
+  color: #fff;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 5px 5px 0 0;
+
+  div {
+    margin: 0 10px;
+  }
+
+  .prev, .next {
+    cursor: pointer;
+
+    &:hover {
+      color: #e96044;
+    }
+  }
+}
+
+.line {
+  border-bottom: 5px solid #062C3B;
+}

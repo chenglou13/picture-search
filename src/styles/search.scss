@@ -1,0 +1,48 @@
+.Search {
+  text-align: center;
+  background-color: #0b3d42;
+  color: #fff;
+  padding: 10px;
+
+  .labels{
+    display: inline-block;
+    @media (max-width: 767px) {
+      display: flex;
+      justify-content: center;
+      max-width: calc(100% - 10px);
+    }
+  }
+
+  label {
+    margin-bottom: 0;
+    margin-right: 15px;
+
+    @media (max-width: 767px) {
+      margin: auto;
+    }
+
+    input {
+      margin-left: 10px;
+      border: 0;
+      border-radius: 3px;
+
+    }
+  }
+
+  button {
+    background-color: #e96044;
+    color: #fff;
+    border: 0;
+    padding: 5px 20px;
+    border-radius: 3px;
+
+    @media (max-width: 767px) {
+      width: 100%;
+      margin-top: 15px;
+    }
+
+    &:hover {
+      background-color: rgba(#e96044, 0.9);
+    }
+  }
+}
